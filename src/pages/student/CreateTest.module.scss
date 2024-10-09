@@ -1,0 +1,70 @@
+.container {
+    background-color: #fff;
+    border-radius: 25px;
+    min-height: 87vh;
+
+.content {
+    h3 {
+        font-size: 2rem;
+    }
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .topics {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        .topic {
+            display: flex;
+            gap: 0.5rem;
+            label {
+                font-size: 1.2rem;
+            }
+            .checkbox {
+                width: 20px;
+                height: 20px;
+            }
+            
+        }
+    }
+    .test {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        h3 {
+            font-size: 1.2rem;
+        }
+        .answers {
+            display: flex;
+            gap: 4rem;
+            label {
+                display: flex;
+                gap: 0.5rem;
+                font-size: 1.2rem;
+            }
+        }
+       
+    }
+    button {
+        width: fit-content;
+    }
+   
+}
+.scoreData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    min-height: 100%;
+    h3 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
+}

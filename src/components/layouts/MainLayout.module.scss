@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    gap: 1vw;
+    .pages {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        width: 100%;
+    }
+}
